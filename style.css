@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #2b2b2b;
+    --background---secondary: #3b3b3b;
+    --caption-&-label-text: #858584;
+    --text: #fff;
+    --call-to-action: #a259ff;
+    --blue-accent: #377df7;
+    --red-accent: #ff7262;
+}
+
+body {
+    background-color: #2b2b2b;
+}
+
+nav {
+    padding: 20px 50px;
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--background);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav_section {
+    display: flex;
+    gap: 92px;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list li a {
+    text-decoration: none;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+}
+
+.button1 {
+    border-radius: 20px;
+    padding: 0 30px;
+    width: 152px;
+    height: 60px;
+    background: var(--call-to-action);
+    border: none;
+    text-align: center;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+}
+
+.button_class {
+    display: flex;
+    gap: 3px;
+}
+
+.container {
+    width: 1050px;
+    height: 704px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    width: 510px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.button2 {
+    border-radius: 20px;
+    padding: 0 50px;
+    width: 224px;
+    height: 60px;
+    background: var(--call-to-action);
+    border: none;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+    text-align: center;
+}
+
+.box {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.boxs {
+    width: 150px;
+    height: 77px;
+}
+
+h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.p_lar {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.box2 {
+    width: 510px;
+    height: 109px;
+    background: var(--background---secondary);
+}
+
+.boxs_img {
+    display: flex;
+    gap: 12px;
+}
+
+h5 {
+    margin-top: 23px;
+    margin-bottom: 10px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+h3 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+}
+
+
+
+
+
+/* Main */
+
+
+.h33 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.p_x {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-top: 10px;
+}
+
+.section_first {
+    width: 1050px;
+    height: 525px;
+    border: 2px solid red;
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.qutilar {
+    height: 100%;
+    width: 330px;
+    border: 2px solid red;
+}
+
+
+.qutilar_farzandi {
+    display: flex;
+    gap: 16px;
+
+}
+
+.qutichalar {
+    width: 100px;
+    height: 100px;
+}
+
