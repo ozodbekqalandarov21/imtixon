@@ -153,10 +153,17 @@ h4 {
     color: var(--text);
 }
 
+.rasim_orqasi {
+    border-radius: 0 0 20px 20px;
+    background: var(--background---secondary);
+    width: 510px;
+    height: 510px;
+}
+
 .box2 {
     width: 510px;
     height: 109px;
-    background: var(--background---secondary);
+
 }
 
 .boxs_img {
@@ -209,31 +216,166 @@ h3 {
     margin-top: 10px;
 }
 
-.section_first {
-    width: 1050px;
-    height: 525px;
-    border: 2px solid red;
+
+.first_section {
+    margin-top: 60px;
     display: flex;
     gap: 30px;
-
+    width: 1050px;
+    height: 530px;
 }
 
-
-.qutilar {
-    height: 100%;
-    width: 330px;
-    border: 2px solid red;
-}
-
-
-.qutilar_farzandi {
+.boxschalar {
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
-    gap: 16px;
-
+    gap: 15px;
 }
 
-.qutichalar {
+
+
+.first_box {
+    width: 330px;
+    height: 530px;
+}
+
+.quti {
+    border-radius: 20px;
+    padding: 32px 15px;
     width: 100px;
     height: 100px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--text);
+    background: var(--call-to-action);
 }
 
+.h6_x {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.avatar {
+    display: flex;
+    gap: 12px;
+    width: 330px;
+    height: 24px;
+    align-items: center;
+}
+
+.fox_p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+    width: 294px;
+    height: 22px;
+}
+
+.section_1 {
+    margin-top: 80px;
+}
+
+.section_1_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button3 {
+    display: flex;
+    gap: 12px;
+    border: none;
+    background: var(--background);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--call-to-action);
+    border-radius: 20px;
+    width: 247px;
+    height: 60px;
+}
+
+.button_x {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+
+
+
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+}
+
+.section_1_hero {
+    margin-top: 60px;
+    width: 1050px;
+    height: 780px;
+    display: grid;
+    grid-template-columns: repeat(4, 238px);
+    grid-template-rows: repeat(3, 240px);
+    gap: 30px;
+}
+
+.grid_box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background: var(--background---secondary);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.rasim_grid{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+.h4_grid {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--text);
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list_grid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.p_grid {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: right;
+    color: var(--caption-&-label-text);
+}
+
+.h5_grid {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+}
